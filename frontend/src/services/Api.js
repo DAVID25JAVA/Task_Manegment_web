@@ -2,8 +2,8 @@
 import axios from "axios";
 
 // API URL
-const APIURL = "http://localhost:4000/api/";
-// const APIURL = "https://task-manegment-web-app.vercel.app/api/";
+// const APIURL = "http://localhost:4000/api/";
+const APIURL = "https://task-manegment-backend-seven.vercel.app/";
 
 
 const API = async (method, url, data = {}, token = null) => {
